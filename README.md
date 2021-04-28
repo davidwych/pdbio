@@ -24,7 +24,7 @@ PDBFile objects can be concatenated:
 Write new PDBFiles with:
 `>>> system.write("output_pdb_file.pdb")`
 
-Contains an `Atom` class which stores the elements of each `ATOM` and `HETATOM` line
+Contains an `Atom` class which stores the elements of each `ATOM` and `HETATM` line
 - index
 - atomtype
 - resname
