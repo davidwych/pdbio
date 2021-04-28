@@ -2,7 +2,7 @@
 # written by David Wych (2020) -- UCI and LANL
 # Convenience script for reading a writing PDB files
 # and manipulating atom and crystallographic info
-# minimilist and unpolished -- use at you peril
+# minimilist and unpolished -- use at your peril
 
 class Atom():
     ''' Object used to store data from each PDB line starting with
