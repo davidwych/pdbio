@@ -4,7 +4,8 @@ A minimalist package for reading, manipulating, and writing PDB files
 Easilly incorporated in to a conda environemnt by adding to `lib/python3.#/site_packages/`
 
 Main class is the `PDBFile` class, which can be instantialized with:
-`>>> system = PDBFile(ifilename=input_pdb_file.pdb)`
+
+`>>> system = PDBFile(ifilename="input_pdb_file.pdb")`
 
 Crystallographic information is stored in attribute: `system.crystinfo`
 - e.g. unit cell box length `a` accessible through `system.crystinfo.a`
